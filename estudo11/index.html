@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem</title>
+</head>
+<body>
+    <p><h1> navegador não suporta áudio <a href="Palavra Cantada _ O Leãozinho.mp3"
+        download="Palavra Cantada _ O Leãozinho.mp3" type="audio/mpeg"></a></h1></p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="carro.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="carro.jpg" type="image/jpg">
+            <img src="carro_700px.jpg" alt="A imagem flexivel funciona">
+
+            <audio preload="metadata" controls autoplay loop>
+                <source src="Palavra Cantada _ O Leãozinho.mp3" type="audio/mpeg">
+                <source src="Palavra Cantada _ O Leãozinho.ogg" type="audio/ogg">
+                 <source src="Palavra Cantada _ O Leãozinho.wav" type="audio/wav">
+                
+
+            </audio>
+    </picture>
+</body>
+</html>
