@@ -1,2 +1,2 @@
 # html5 Exercicios
- Exercicios concluidos do Curso em Video
+Material do **Curso em video.**
